@@ -6,6 +6,9 @@ var Point = function(a, b){
 };
 
 Point.prototype.equal = function(other){
+	console.log(this);
+	console.log("------");
+	console.log(other);
 	return other.x == this.x &&  other.y == this.y;
 };
 

@@ -1,5 +1,5 @@
 var assert 		 = require('assert');
-var NearestPoint = require('./src/NearestPoint');
+var NearestPoint = require('./near_point/lib/calculateNearestPoint');
 var Point 		 = require('./src/Point');
 
 
